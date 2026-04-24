@@ -1,2 +1,2 @@
-# James.Bikay-
+# James.Bikay
 Portfolio Data Analysis
