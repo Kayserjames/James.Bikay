@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil - James Podga Bikay</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+  font-family:'Inter',sans-serif;
+  background:#0f172a;
+  color:#e2e8f0;
+}
+
+/* CONTAINER */
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+/* HEADER */
+.header{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.header img{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid #38bdf8;
+  margin-bottom:15px;
+}
+
+.header h1{
+  font-size:2rem;
+}
+
+.header p{
+  color:#94a3b8;
+  margin-top:10px;
+}
+
+/* CARD */
+.card{
+  background:#1e293b;
+  padding:25px;
+  border-radius:12px;
+  margin-bottom:20px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+/* TITLES */
+h2{
+  margin-bottom:15px;
+  color:#38bdf8;
+}
+
+/* SKILLS */
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.skills span{
+  background:#0f172a;
+  margin:5px;
+  padding:8px 12px;
+  border-radius:6px;
+  font-size:0.85rem;
+}
+
+/* CONTACT */
+.contact a{
+  display:block;
+  color:#38bdf8;
+  text-decoration:none;
+  margin:5px 0;
+}
+
+/* BACK BUTTON */
+.back{
+  display:block;
+  text-align:center;
+  margin-top:30px;
+  text-decoration:none;
+  color:#0f172a;
+  background:#38bdf8;
+  padding:10px;
+  border-radius:8px;
+  font-weight:600;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+  .header h1{
+    font-size:1.5rem;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <img src="profile.jpg" alt="photo">
+    <h1>James Podga Bikay</h1>
+    <p>Data Analyst spécialisé en analyse et visualisation de données</p>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="card">
+    <h2>À propos</h2>
+    <p>
+      Passionné par la data, je transforme des données complexes en insights exploitables
+      pour aider les entreprises à prendre des décisions stratégiques.
+    </p>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="card">
+    <h2>Compétences</h2>
+    <div class="skills">
+      <span>SQL</span>
+      <span>Excel</span>
+      <span>Power BI</span>
+      <span>Data Analysis</span>
+      <span>Data Visualization</span>
+      <span>Statistiques</span>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="card contact">
+    <h2>Contact</h2>
+    <a href="mailto:Podgabikayjames@gmail.com">📧 Email</a>
+    <a href="https://github.com/Kayserjames" target="_blank">💻 GitHub</a>
+    <a href="https://linkedin.com/in/james-podga-bikay-3816ab372" target="_blank">🔗 LinkedIn</a>
+  </div>
+
+  <!-- BACK -->
+  <a href="index.html" class="back">← Retour au portfolio</a>
+
+</div>
+
+</body>
+</html>
